@@ -12,4 +12,5 @@ urlpatterns = [
     path('course-enroll', views.course_enroll, name='course-enroll'),
     path('course-dismiss', views.course_dismiss, name='course-dismiss'),
     path('courseProgress/', views.course_progress, name='course-progress'),
+    path('logout/', views.hom, name='logout'),
 ]
